@@ -144,13 +144,71 @@
 
 ![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/Снимок%20экрана%202024-11-10%20в%2002.15.56.png)    
 
+10) Написал новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово hunter.
+ 
+```xml
+package plaindoll;
 
+public class Welcomer{
+	public String sayWelcome() {
+		return "Welcome home, good hunter. What is it your desire?";
+	}
+	public String sayFarewell() {
+		return "Farewell, good hunter. May you find your worth in waking world.";
+	}
+	public String sayNeedGold(){
+		return "Not enough gold";
+	}
+	public String saySome(){
+		return "something in the way";
+	}
+	public String sayHunter() {
+		return "Please take care of yoursalf, hunter.";
+  }
+}
+```
 
+11) Дополнил тест для нового метода на поиск слова hunter в новой реплике.
 
+```xml
+package plaindoll;
 
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.junit.Assert.*;
 
+import org.junit.Test;
 
+public class WelcomerTest {
+	
+	private Welcomer welcomer = new Welcomer();
 
+	@Test
+	public void welcomerSaysWelcome() {
+		assertThat(welcomer.sayWelcome(), containsString("Welcome"));
+	}
+	@Test
+	public void welcomerSaysFarewell() {
+		assertThat(welcomer.sayFarewell(), containsString("Farewell"));
+	}
+	@Test
+	public void welcomerSaysHunter() {
+		assertThat(welcomer.sayWelcome(), containsString("hunter"));
+		assertThat(welcomer.sayFarewell(), containsString("hunter"));
+	}
+	@Test
+	public void welcomerSaysSilver(){
+		assertThat(welcomer.sayNeedGold(), containsString("gold"));
+	}
+	@Test
+	public void welcomerSaysSomething(){
+		assertThat(welcomer.saySome(), containsString("something"));
+	}
+	@Test
+	public void welcomernetSaysHunter(){
+		assertThat(welcomer.sayHunter(), containsString("hunter"));
+	}
+}
+```
 
 
 
