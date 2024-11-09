@@ -20,5 +20,5 @@
 
 ![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/1%20-%20agent.png) 
 
-5) Сделал fork [site.yml](https://github.com/Byzgaev-I/Ansible-yandex/blob/main/site.yml).
-6) Создал VM (2CPU4RAM) и запустите [site.yml](https://github.com/Byzgaev-I/mnt-homeworks/tree/MNT-video/09-ci-05-teamcity/infrastructure)
+5) Сделал fork [репозитория](https://github.com/Byzgaev-I/example-teamcity).
+6) Создал VM (2CPU4RAM) и запустите [playbook](https://github.com/Byzgaev-I/mnt-homeworks/tree/MNT-video/09-ci-05-teamcity/infrastructure)
