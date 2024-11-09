@@ -63,11 +63,13 @@
 
 ![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/3-сборка.png)
 
+4) Поменял условия сборки: если сборка по ветке master, то должен происходит mvn clean deploy, иначе mvn clean test.
 
+![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/4-условие%20сбрки.png)
 
+5) Для deploy будет загрузил settings.xml в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.
 
-
-
+![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/5%20сборка.png)
 
 
 
