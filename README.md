@@ -24,6 +24,7 @@
 6) Создал VM (2CPU4RAM) и запустите [playbook](https://github.com/Byzgaev-I/mnt-homeworks/tree/MNT-video/09-ci-05-teamcity/infrastructure)
 
 ![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/1%20Playbook.png) 
+![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/2-Nexus.png) 
 
 
 ### Основная часть
