@@ -49,6 +49,16 @@
 18) Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity.
 19) В ответе пришлите ссылку на репозиторий.
 
+### Выполнение заданий
+
+1) Создал новый проект на основе fork:
+
+![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/1-fork.png) 
+
+2) Сделал autodetect конфигурации:
+
+![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/2-autodetect.png) 
+
 
 
 
