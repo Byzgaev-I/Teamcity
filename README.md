@@ -81,6 +81,9 @@
 ![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/Снимок%20экрана%202024-11-09%20в%2005.08.15.png) 
 
 
+9) Создал отдельную ветку feature/add_reply в репозитории:
+
+![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/Снимок%20экрана%202024-11-10%20в%2002.15.56.png)    
 
 
 
