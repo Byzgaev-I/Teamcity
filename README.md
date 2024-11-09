@@ -71,6 +71,16 @@
 
 ![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/5%20сборка.png)
 
+6) В pom.xml поменял ссылки на репозиторий и nexus.
+7) Запустил сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
+
+![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/6%20Nexus%20.png)
+
+8) Мигрировал build configuration в репозиторий.
+
+![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/Снимок%20экрана%202024-11-09%20в%2005.08.15.png) 
+
+
 
 
 
