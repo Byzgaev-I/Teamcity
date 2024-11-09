@@ -59,6 +59,9 @@
 
 ![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/2-autodetect.png) 
 
+3) Сохранил необходимые шаги, запустил первую сборку master:
+
+![image.jpg](https://github.com/Byzgaev-I/Teamcity/blob/main/3-сборка.png)
 
 
 
