@@ -293,7 +293,7 @@ public class WelcomerTest {
 </build-type>
 ```
 
-
+Ссылка на репозиторий: [example-teamcity](https://github.com/Byzgaev-I/example-teamcity)
 
 
 
